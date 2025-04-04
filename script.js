@@ -14,7 +14,7 @@ btn.addEventListener('click', ()=>{
   //Choosing a Random Character Image
   let imgs = ['raven.png', 'star.png', 'beast.png', 'robin.png', 'cyborg.png']
   let i = Math.floor(Math.random()*imgs.length)
-  img.setAttribute('src',`./${imgs[i]}`)
+  img.setAttribute('src',`https://your-username.github.io/repository-name/${imgs[i]}`)
 
   //Setting image styles
   img.style.height = '30vh'
