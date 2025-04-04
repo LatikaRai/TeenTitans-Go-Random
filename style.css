@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'ttg';
+  src: url(ttg_by_westralinc-dbnnkt8.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: black;
+  overflow: hidden;
+}
+button{
+  font-size: 1.5vw;
+  background-color: #0AB253;
+  border-radius: 50px;
+  border: none;
+  padding: 0.9vw 1.5vw;
+  color: white;
+  z-index: 5;
+  font-family: 'ttg';
+}
+button:active{
+  scale: 0.95;
+  color: black;
+}
